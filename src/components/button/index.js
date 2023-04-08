@@ -1,8 +1,10 @@
 
- function Button (){
 
+
+ function Button (props){
+console.log(props)
     return (
-        <Button>Clique aqui</Button>
+        <Button></Button>
     )
 
  }
