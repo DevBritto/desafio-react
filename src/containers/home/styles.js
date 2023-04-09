@@ -43,17 +43,7 @@ line-height: 21px;
 outline: none;
 padding-left: 15px;
 `
-export const Button = styled.button`
-width: 342px;
-height: 69px;
-background: #D93856;
-color: #ffffff;
-font-style: normal;
-font-weight: 900;
-font-size: 17px;
-line-height: 2px;
-cursor: pointer;
-`
+
 export const Label = styled.label`
 font-weight: 300;
 font-size: 18px;
@@ -61,17 +51,8 @@ line-height: 21px;
 position: relative;
 right: 102px;
 color: #eeeeee;
+`
 
-`
-export const H1 = styled.h1`
-margin-top: 30px;
-margin-bottom: 80px;
-color: #ffffff;
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 33px;
-`
 export const User = styled.li`
 color: red;
 width: 342px;

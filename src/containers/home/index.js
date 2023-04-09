@@ -1,8 +1,10 @@
 import React, {useRef, useState} from 'react';
 import Logo from '../../assets/logo-burguer.png'
-import { ContainerGlobal, ContainerItens, Tela, Image, Input, Button, Label, H1, } from './styles'
+import { ContainerGlobal, ContainerItens, Tela, Image, Input, Label, } from './styles'
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import  H1  from '../../components/Title'
+import  Button  from '../../components/Title/Button'
 function Home() {
 
    
