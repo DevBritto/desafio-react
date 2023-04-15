@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
-export const Tela1 = styled.div`
+export const Tela = styled.div`
 margin-top: 30px;
 display: flex;
 justify-content: center;
 height: 100vh;
 `
 
-export const Container1 = styled.div`
+export const Container = styled.div`
 display:flex;
 flex-direction: column;
 align-items: center;
@@ -16,17 +16,13 @@ height: 896px;
 background: rgba(10, 10, 16, 1);
 
 `
-export const Image1 = styled.img`
+export const Image = styled.img`
 width:246px;
 height: 354px;
 `
 
-export const H11 = styled.h1`
-margin-top: 30px;
-color: #ffffff;
-margin-bottom: 50px;
-`
-export const User1 = styled.li`
+
+export const User = styled.li`
 background:  rgba(255, 255, 255, 0.25);
 width: 342px;
 height: 101px;
